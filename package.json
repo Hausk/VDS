@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "VDS",
   "private": true,
   "scripts": {
     "build": "turbo run build",
