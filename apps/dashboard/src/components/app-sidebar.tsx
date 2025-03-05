@@ -22,15 +22,6 @@ import {
   SidebarRail,
 } from '@/components/ui/sidebar';
 
-// Updated data for photographer dashboard
-const data = {
-  user: {
-    name: 'Emma Photographer',
-    email: 'emma@photostudio.com',
-    avatar: '/avatars/photographer.jpg',
-  },
-};
-
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
     <Sidebar collapsible="icon" {...props}>
@@ -109,7 +100,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         </SidebarMenu>
       </SidebarContent>
       <SidebarFooter>
-        <NavUser user={data.user} />
+        <NavUser />
       </SidebarFooter>
       <SidebarRail />
     </Sidebar>
